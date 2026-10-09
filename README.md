@@ -1,9 +1,13 @@
 # Her Society
 
-Elegant, responsive one-page landing site for Her Society.
+Responsive mentorship landing page with the Her Society Method, mentorship details, and accessible FAQs.
 
-## Deploy
+## Local preview
 
-This is a static site with no build step. Import the repository into Vercel and leave the default settings unchanged, or enable GitHub Pages from the repository settings.
+Run `python3 -m http.server 3000` from the repository root and open http://localhost:3000.
 
-The membership buttons direct visitors to [whop.com/her-society](https://whop.com/her-society).
+## Hosting
+
+Static HTML, CSS, and JavaScript. No installation or build step is required. Deploy the repository root with Vercel using the Other framework preset.
+
+Application buttons link to the existing Her Mentorship application. The complimentary guide and member login retain their existing destinations.
